@@ -1,0 +1,95 @@
+h1,
+h2 {
+  font-weight: normal;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+}
+h1 {
+  font-size: 80px;
+  margin: 0;
+}
+h2 {
+  font-size: 40px;
+  margin: 0;
+}
+body {
+  font-family: "PT Sans", sans-serif;
+}
+/* header and footer */
+header,
+footer {
+  text-align: center;
+  color: black;
+  padding: 80px;
+  background-image: url(https://s3.amazonaws.com/grazecart/naturesrootsfarm/images/1486599107_589bb3c32b4ed.jpg);
+  color: white;
+  margin: 0px;
+}
+header {
+  padding: 80px 0 40px;
+}
+footer {
+  padding: 30px 0;
+  text-align: center;
+}
+nav {
+  background-color: white;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav a {
+  padding: 15px 20px;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+* {
+  text-align: center;
+  margin: 0px;
+}
+img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+.photogrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0px;
+  padding: 10px;
+}
+figure {
+  margin: 0;
+  background: white;
+  text-align: center;
+  outline: 1px solid #494d70;
+  box-shadow: 5px 5px 10px black;
+  padding: 10px;
+  margin: 10px;
+}
+figcaption {
+  color: black;
+}
+
+@media (max-width: 800px) {
+  .photogrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+header {
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .photogrid {
+    grid-template-columns: 1fr;
+  }
+  nav {
+    display: none;
+  }
+}
